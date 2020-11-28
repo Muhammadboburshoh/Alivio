@@ -15,7 +15,7 @@ body {
   margin-top: 85px;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1300px;
   padding: 0 5px;
   margin-left: auto;
   margin-right: auto;
@@ -216,6 +216,7 @@ only screen and (                min-resolution: 2dppx) {
   padding: 0;
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
 }
 
 .first-how-we-work {
@@ -230,9 +231,9 @@ only screen and (                min-resolution: 2dppx) {
   width: 441px;
 }
 
-.how-we-work-item {
-  margin-right: 95px;
-}
+/* .how-we-work-item {
+  margin-right: 70px;
+} */
 
 .how-we-work-item:nth-child(3n) {
   margin-right: 0;
